@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "威力彩4", "威力彩4\威力彩4.csproj", "{A90452EF-D4C0-4BC0-9480-33B18C7B451F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A90452EF-D4C0-4BC0-9480-33B18C7B451F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90452EF-D4C0-4BC0-9480-33B18C7B451F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90452EF-D4C0-4BC0-9480-33B18C7B451F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90452EF-D4C0-4BC0-9480-33B18C7B451F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C18B758-3C7B-4008-A625-69EB5981B341}
+	EndGlobalSection
+EndGlobal

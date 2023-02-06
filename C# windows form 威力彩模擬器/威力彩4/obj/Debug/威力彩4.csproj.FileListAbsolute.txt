@@ -1,0 +1,75 @@
+C:\Users\iSpan\Desktop\C#程式設計Me\威力彩4\威力彩4\obj\Debug\威力彩4.csproj.AssemblyReference.cache
+C:\Users\iSpan\Desktop\C#程式設計Me\威力彩4\威力彩4\obj\Debug\威力彩4.csproj.SuggestedBindingRedirects.cache
+C:\Users\iSpan\Desktop\C#程式設計Me\威力彩4\威力彩4\obj\Debug\威力彩4.Form1.resources
+C:\Users\iSpan\Desktop\C#程式設計Me\威力彩4\威力彩4\obj\Debug\威力彩4.Properties.Resources.resources
+C:\Users\iSpan\Desktop\C#程式設計Me\威力彩4\威力彩4\obj\Debug\威力彩4.csproj.GenerateResource.cache
+C:\Users\iSpan\Desktop\C#程式設計Me\威力彩4\威力彩4\obj\Debug\威力彩4.csproj.CoreCompileInputs.cache
+C:\Users\iSpan\Desktop\C#程式設計Me\威力彩4\威力彩4\bin\Debug\威力彩4.exe.config
+C:\Users\iSpan\Desktop\C#程式設計Me\威力彩4\威力彩4\bin\Debug\威力彩4.exe
+C:\Users\iSpan\Desktop\C#程式設計Me\威力彩4\威力彩4\bin\Debug\威力彩4.pdb
+C:\Users\iSpan\Desktop\C#程式設計Me\威力彩4\威力彩4\obj\Debug\威力彩4.exe
+C:\Users\iSpan\Desktop\C#程式設計Me\威力彩4\威力彩4\obj\Debug\威力彩4.pdb
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩4高\威力彩4\bin\Debug\威力彩4.exe.config
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩4高\威力彩4\bin\Debug\威力彩4.exe
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩4高\威力彩4\bin\Debug\威力彩4.pdb
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩4高\威力彩4\obj\Debug\威力彩4.csproj.AssemblyReference.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩4高\威力彩4\obj\Debug\威力彩4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩4高\威力彩4\obj\Debug\威力彩4.Form1.resources
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩4高\威力彩4\obj\Debug\威力彩4.Properties.Resources.resources
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩4高\威力彩4\obj\Debug\威力彩4.csproj.GenerateResource.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩4高\威力彩4\obj\Debug\威力彩4.csproj.CoreCompileInputs.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩4高\威力彩4\obj\Debug\威力彩4.exe
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩4高\威力彩4\obj\Debug\威力彩4.pdb
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.exe.config
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.exe
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.pdb
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.AssemblyReference.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form1.resources
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Properties.Resources.resources
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.GenerateResource.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.CoreCompileInputs.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.exe
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.pdb
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.exe.config
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.exe
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.pdb
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.AssemblyReference.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form1.resources
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Properties.Resources.resources
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.GenerateResource.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.CoreCompileInputs.cache
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.exe
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.pdb
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form2.resources
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form3.resources
+C:\Users\Default User.LAPTOP-73918R06\Desktop\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form4.resources
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.exe.config
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.exe
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.pdb
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.AssemblyReference.cache
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.SuggestedBindingRedirects.cache
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form1.resources
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form2.resources
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form3.resources
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form4.resources
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Properties.Resources.resources
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.GenerateResource.cache
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.CoreCompileInputs.cache
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.exe
+D:\C#程式設計Me\威力彩\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.pdb
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.exe.config
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.exe
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\bin\Debug\威力彩4.pdb
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.AssemblyReference.cache
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.SuggestedBindingRedirects.cache
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form1.resources
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form2.resources
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form3.resources
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Form4.resources
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.Properties.Resources.resources
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.GenerateResource.cache
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.csproj.CoreCompileInputs.cache
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.exe
+C:\Users\iSpan\Desktop\威力彩LBL顯示\威力彩4\obj\Debug\威力彩4.pdb
