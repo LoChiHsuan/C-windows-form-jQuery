@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<style>
+    .wrap {
+        padding: 2% 2%;
+        margin: 5% auto;
+        border: 1px solid;
+        border-radius: 10px;
+        width: 700px;
+    }
+
+    button {
+        font-size: 22px;
+    }
+
+    .lottery-nums {
+        overflow: hidden;
+    }
+
+        .lottery-nums > div {
+            /* display: block; */
+            float: left;
+            width: 50px;
+            height: 50px;
+            border: 1px solid #999;
+            background-color: #fff;
+            color: #555;
+            font-size: 20px;
+            text-align: center;
+            line-height: 50px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+            .lottery-nums > div:hover {
+                background-color: yellow;
+            }
+
+        .lottery-nums .selected {
+            background-color: yellow;
+            color: black;
+        }
+
+        .lottery-nums .highlight {
+            background-color: red;
+            color: #fff;
+        }
+
+        .lottery-nums .selected.highlight {
+            background-color: orange;
+            color: #333;
+        }
+</style>
+</head>
+
+<body>
+    <div class="wrap">
+        <button type="button" class="btn btn-outline-warning" onclick="resetall()">重啟遊戲</button>
+
+        <h1 class="text-center text-warning m-2">樂透模擬系統</h1>
+
+        <div class="lottery-nums"></div>
+
+        <div class="text-center">
+            <div class="mb-2 myNums"></div>
+            <button class="btn btn-outline-primary btn-lottery">開獎</button>
+            <button class="btn btn-outline-primary reset">重設</button>
+        </div>
+
+        <p class="text-center text-danger m-2 Fnums">
+            <!-- 中獎訊息 -->
+        </p>
+
+        <hr>
+
+        <div class="container border rounded p-2">
+            <p class="text-center">
+                <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample">
+                    樂透號碼
+                </button>
+            </p>
+
+            <div class="row">
+
+                <div class="collapse col" id="collapseExample">
+                    <div class="card card-body random">
+                        <!-- 中獎號訊息框 -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+
+            Randow();
+
+            for (var i = 1; i < 50; i++) {
+                $('.lottery-nums').append(`<div>${i}</div>`);
+            }
+
+            // 為數字按鈕加入事件，並限制只能點擊6次
+            $('.lottery-nums div').on('click', function () {
+                var myNums = [];
+                if ($('.selected').length < 6) {
+                    $(this).toggleClass('selected');
+
+                    $('.selected').each(function () {
+                        let n = parseInt($(this).html());
+                        myNums.push(n);
+                    })
+                    window.sessionStorage.setItem('myNums', JSON.stringify(myNums));
+                }
+                else {
+                    alert('只能選擇 6 個號碼');
+                    $(this).toggleClass("selected", $(this).css("backgroundColor") == "white")
+                    return true;
+                }
+            });
+
+            // 執行開獎
+            $(".btn-lottery").on("click", function () {
+
+                var lottery = (JSON.parse(window.sessionStorage.getItem("lottery")));
+                var myNums = (JSON.parse(window.sessionStorage.getItem("myNums")));
+
+                // 尋找自己點擊的class數量
+                var selected_box = $('.selected').length;
+
+                // 如果class的數量小於6跳出警告視窗，return true後面的程式不會執行
+                if (selected_box < 6) {
+                    alert('注意！您尚未選取六位數');
+                    return true;
+                }
+
+                //  開出的獎號並在數字上增加的class
+                for (i = 0; i < lottery.length; i++) {
+                    $('.lottery-nums div').eq(lottery[i] - 1).addClass('highlight');
+                }
+
+                var wNums = [];
+                var str = [];
+                let b = 0;
+                for (i = 0; i < lottery.length; i++) {
+                    for (j = 0; j < lottery.length; j++) {
+                        if (lottery[i] == myNums[j]) {
+                            wNums[b] = myNums[j];
+                            let content = wNums[b];
+                            str.push(content);
+                        }
+                    }
+                }
+
+                if (str.length === 6) {
+                    $('.Fnums').text('恭喜全中，不用努力惹!!');
+                }
+                else if (str == "") {
+                    $('.Fnums').text('沒有中獎號碼，藍瘦香菇 QQ');
+                }
+                else {
+                    $('.Fnums').text(`您中獎的號碼為: ${str}，共 ${str.length} 個號碼。`)
+                }
+
+            });
+
+            // 重設按鈕，移除全部的按鈕的class
+            $('.reset').on('click', function () {
+                $('.lottery-nums div').removeClass('highlight selected');
+                $('.Fnums').text('');
+                myNums = []
+            });
+        });
+
+        function Randow() {
+            // 樂透1~49 隨機產生6位數字
+            var lottery = [];
+
+            while (lottery.length < 6) {
+                number = parseInt(Math.random() * 49 + 1, 10);
+                if (lottery.indexOf(number) === -1) {
+                    lottery.push(number);
+                }
+            }
+
+            lottery.sort(function (a, b) {
+                if (a > b) return 1;
+                if (a < b) return -1;
+                return 0;
+            });
+
+            $(".random").html(`<p class="text-center">${lottery}</p>`);
+            window.sessionStorage.setItem('lottery', JSON.stringify(lottery));
+        }
+
+        function resetall() {
+            Randow();
+            $('.lottery-nums div').removeClass('highlight selected');
+            $('.Fnums').remove('p');
+            $('.Fnums').text('');
+            myNums = [];
+        }
+    </script>
+</body>
+
+</html>
